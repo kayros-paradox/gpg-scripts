@@ -5,10 +5,10 @@ gpg --full-gen-key
 
 ### Key output
 
-#### // Private key
+#### <i>// Private key</i>
 <p>gpg -K</p>
 
-#### // Public key
+#### <i>// Public key</i>
 <p>gpg -k</p>
 
 ### Import keys
