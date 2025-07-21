@@ -4,8 +4,8 @@
 gpg --full-gen-key
 
 ### Key output
-<p>gpg -K      // Private key</p>
-<p>gpg -k      // Public key</p>
+<p><span>gpg -K</span>      <span><b>// Private key</b></span></p>
+<p><span>gpg -k</span>      <span><b>// Public key</b></span></p>
 
 ### Import keys
 gpg --import key_file.gpg
