@@ -1,3 +1,8 @@
+## Вступление
+
+Перед использованием скриптов замените пожалуйста example@gmail.com на вашу 
+почту.
+
 ## Основные команды
 
 ### Генерация ключей
@@ -11,16 +16,16 @@ gpg -k      # Публичный ключ
 gpg --import key_file.gpg
 
 ### Экспорт ключей
-### Модификатор <a> это формат ascii
-gpg --export -a <mail> > <export_file>
+### Модификатор \<a\> это формат ascii
+gpg --export -a \<mail\> \> \<экспортируемый_файл\>
 
 ### Удаление ключей
-gpg --delete-secret-keys <mail>
-gpg --delete-keys <mail>
+gpg --delete-secret-keys \<mail\>
+gpg --delete-keys \<mail\>
 
 ### Шифрование файлов
-gpg -e -a -r mail <filename>
+gpg -e -a -r mail \<filename\>
 
 ### Дешифрование файлов
-gpg -d -o <decrypted_file> <file>
+gpg -d -o \<зашифрованный_файл\> \<новый_файл\>
 
