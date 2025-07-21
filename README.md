@@ -1,24 +1,25 @@
-## Key generation
+
+### Key generation
 gpg --full-gen-key
 
-## Key output
+### Key output
 gpg -K      # Private key
 gpg -k      # Public key
 
-## Import keys
+### Import keys
 gpg --import key_file.gpg
 
-## Export keys
-## Modificator <a> is the ascii format
+### Export keys
+### Modificator <a> is the ascii format
 gpg --export -a <mail> > <export_file>
 
-## Delete keys
+### Delete keys
 gpg --delete-secret-keys <mail>
 gpg --delete-keys <mail>
 
-## File encryption
+### File encryption
 gpg -e -a -r mail <filename>
 
-## File decryption
+### File decryption
 gpg -d -o <decrypted_file> <file>
 
