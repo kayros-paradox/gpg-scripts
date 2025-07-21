@@ -1,3 +1,4 @@
+## Basic commands
 
 ### Key generation
 gpg --full-gen-key
